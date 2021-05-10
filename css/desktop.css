@@ -51,4 +51,10 @@
   .guangchang-info {
     margin-left: 0.5rem;
   }
+  /* footer */
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
