@@ -118,6 +118,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.lisa-info {
+  margin-bottom: 1rem;
+}
 .guangchang-photo {
   display: flex;
   flex-direction: column;
