@@ -2,10 +2,9 @@
   .header-wrapper {
     flex-direction: row;
     justify-content: space-between;
-    /* width: 1024px; */
   }
   .all-section-wrapper {
-    width: 1024px;
+    width: 768px;
   }
   .header-section h1 {
     margin-bottom: 1rem;
@@ -19,5 +18,37 @@
   }
   .hero-inner h2 {
     font-size: 2.5rem;
+  }
+  /* main */
+  .main-wrapper {
+    height: 20rem;
+  }
+  .three-photos {
+    margin-top: -6.5rem;
+  }
+  .two-photos {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .photo4,
+  .photo5 {
+    width: 5rem;
+    height: 5rem;
+  }
+  .lisa-photo {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .guangchang-photo {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .lisa-info,
+  .guangchang-info {
+    margin-left: 0.5rem;
   }
 }
