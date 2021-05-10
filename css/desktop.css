@@ -2,6 +2,9 @@
   .header-wrapper {
     flex-direction: row;
     justify-content: space-between;
+    /* width: 1024px; */
+  }
+  .all-section-wrapper {
     width: 1024px;
   }
   .header-section h1 {
@@ -9,5 +12,12 @@
   }
   .search-section {
     margin-bottom: 0;
+  }
+  /* hero */
+  .hero {
+    height: 35rem;
+  }
+  .hero-inner h2 {
+    font-size: 2.5rem;
   }
 }
